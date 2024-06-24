@@ -3,7 +3,7 @@ let loopCounter = 0;
 let maxLoops = 450; // Numero massimo di iterazioni prima di fermare il loop
 
 function setup() {
-  createCanvas(600, 600);
+  createCanvas(windowWidth,windowHeight);
   background(240); // Sfondo grigio chiaro
   
 
